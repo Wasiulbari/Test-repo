@@ -3,6 +3,7 @@ import Counter from './Counter';
 import { useState } from 'react';
 import './App.css'
 import ExternalUser from './components/ExternalUser';
+import RestCountries from './components/RestCountries';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <Counter/>
     <Counters/>
     <ExternalUser/>
+    <RestCountries/>
    
     </div>
   )
