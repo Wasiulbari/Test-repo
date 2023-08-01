@@ -1,4 +1,4 @@
-/* eslint-disable react/prop-types */
+
 import './Style.css';
 
 const Country = (props) => {
@@ -6,6 +6,7 @@ const Country = (props) => {
   console.log(props.country);
   // After Destructuring
   const {area,population,name,flags} = props.country
+  
     return (
       <>
         <div className="country-css">
